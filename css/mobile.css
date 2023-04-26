@@ -215,11 +215,6 @@ body {
 	overflow: visible;
 	width: 100%;
 }
-#footer div p {
-	float: none;
-	margin: 0;
-	text-align: center;
-}
 #footer div ul {
 	float: none;
 	margin: 0 auto;

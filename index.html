@@ -7,76 +7,98 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>House of Bread</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/mobile.css" media="screen and (max-width : 568px)">
-	<script type="text/javascript" src="js/mobile.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+	<!-- google font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
-	<div id="header">
-		<a href="index.html" class="logo">
-			<img src="images/logo.jpg" alt="">
-		</a>
-		<ul id="navigation">
-			<li class="selected">
-				<a href="index.html">home</a>
-			</li>
-			<li>
-				<a href="about.html">about</a>
-			</li>
-			<li>
-				<a href="gallery.html">gallery</a>
-			</li>
-			<li>
-				<a href="blog.html">blog</a>
-			</li>
-			<li>
-				<a href="contact.html">contact</a>
-			</li>
-		</ul>
-	</div>
-	<div id="body">
-		<div id="featured">
-			<img src="images/the-beacon.jpg" alt="">
+	<header id="header">
+		<div class="container">
+			<div class="logo">
+				<a href="index.html"><img src="images/logo.jpg" alt=""></a>
+			</div>
 		</div>
-		<ul>
-			<li>
-				<a href="gallery.html">
-					<img src="images/the-father.jpg" alt="">
-					<span>the father</span>
-				</a>
-			</li>
-			<li>
-				<a href="gallery.html">
-					<img src="images/the-actor.jpg" alt="">
-					<span>the actor</span>
-				</a>
-			</li>
-			<li>
-				<a href="gallery.html">
-					<img src="images/the-nerd.jpg" alt="">
-					<span>the nerd</span>
-				</a>
-			</li>
-		</ul>
-	</div>
-	<div id="footer">
-		<div>
-			<ul>
-				<li>
-					<a href="http://freewebsitetemplates.com/go/twitter/" id="twitter">twitter</a>
-				</li>
-				<li>
-					<a href="http://freewebsitetemplates.com/go/facebook/" id="facebook">facebook</a>
-				</li>
-				<li>
-					<a href="http://freewebsitetemplates.com/go/googleplus/" id="googleplus">googleplus</a>
-				</li>
-				<li>
-					<a href="http://pinterest.com/fwtemplates/" id="pinterest">pinterest</a>
-				</li>
-			</ul>
+
+		<div class="container">
+			<nav id="nav">
+				<button id="burgerMenu"><i class="fas fa-bars"></i></button>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="#section-2">Menu</a></li>
+					<li><a href="#section-3">Contact</a></li>
+				</ul>
+			</nav>
 		</div>
-	</div>
+	</header>
+
+	<!-- main -->
+	<main>
+		<!-- hero block -->
+		<!-- <section class="heroBlock">
+			<img src="images/img-hero-1.jpg" alt="Hero image">
+			<div class="content">
+				<h1>Premium product for you</h1>
+			</div>
+		</section>-->
+		<!-- gallery block -->
+		<section class="block galleryBlock">
+			<div class="container">
+				<h2 id="section-2">Menu</h2>
+				<div class="row">
+					<div class="col">
+						<img src="images/img1.jpg" alt="img1">
+					</div>
+					<div class="col">
+						<img src="images/img2.jpg" alt="img2">
+					</div>
+					<div class="col">
+						<img src="images/img3.jpg" alt="img3">
+					</div>
+					<div class="col">
+						<img src="images/img4.jpg" alt="img4">
+					</div>
+					<div class="col">
+						<img src="images/img5.jpg" alt="img5">
+					</div>
+					<div class="col">
+						<img src="images/img6.jpg" alt="img6">
+					</div>
+					<div class="col">
+						<img src="images/img7.jpg" alt="img7">
+					</div>
+					<div class="col">
+						<img src="images/img8.jpg" alt="img8">
+					</div>
+					<div class="col">
+						<img src="images/img9.jpg" alt="img9">
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<!-- footer -->
+	<footer id="footer">
+		<div class="container">
+			<h2 id="section-3">Contact Us</h2>
+			<div class="content">
+				<ul class="social">
+					<li><a href="https://www.facebook.com/browniesandco88"><i class="fab fa-facebook-f"></i></a>
+					</li>
+					<li><a href="https://instagram.com/houseofbread_2016?"><i class="fab fa-instagram"></i></a></li>
+					<li><a href="https://shop.line.me/@764qdrhk"><i class="fab fa-line"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	<!-- jquery cdn -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+		integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<!-- custom js -->
+	<script src="js/main.js"></script>
 </body>
 
 </html>
